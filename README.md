@@ -11,7 +11,7 @@ You can access the live version [here](https://ecstatic-shockley-f983ac.netlify.
 
 ## Video presentation
 
-You can access the video presentation of the project [here](https://www.youtube.com).
+You can access the video presentation of the project [here](https://youtu.be/BmWjB2lG0WQ).
 
 ## Built With
 
