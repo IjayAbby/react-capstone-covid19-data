@@ -6,7 +6,7 @@
 
 ## Live version
 
-You can access the live version [here](https:).
+You can access the live version [here](https://ecstatic-shockley-f983ac.netlify.app/)).
 
 
 ## Video presentation
