@@ -9,15 +9,15 @@ const today = dayjs().subtract(2, 'day').format('YYYY-MM-DD');
 const detailsURL = `https://api.covid19tracking.narrativa.com/api/${today}/country`;
 
 const getDetails = (country) => async (dispatch) => {
-    dispatch({ type: GET_COVID_DETAILS });
+  dispatch({ type: GET_COVID_DETAILS });
   const response = await fetch(`${detailsURL}${country}`);
   const details = await response.json();
   return dispatch({ type: GET_COVID_DETAILS_SUCCESS, details });
 };
 
 export {
-    getDetails as default,
-    GET_COVID_DETAILS_SUCCESS,
-    GET_COVID_DETAILS,
-    GET_COVID_DETAILS_ERROR,
-}
+  getDetails as default,
+  GET_COVID_DETAILS_SUCCESS,
+  GET_COVID_DETAILS,
+  GET_COVID_DETAILS_ERROR,
+};

@@ -4,13 +4,13 @@ import covidReducer from './covid/covid';
 import detailsReducer from './covid/details';
 
 const reducer = combineReducers({
-    covidReducer,
-    detailsReducer,
-})
+  covidReducer,
+  detailsReducer,
+});
 
 const store = createStore(
-    reducer,
-    applyMiddleware(thunk),
+  reducer,
+  applyMiddleware(thunk),
 );
 
 export default store;
