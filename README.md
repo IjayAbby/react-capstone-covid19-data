@@ -8,7 +8,9 @@
 
 You can access the live version [here](https://ecstatic-shockley-f983ac.netlify.app/)).
 
+## Project screenshot.
 
+![screenshot](screenshot.png)
 ## Video presentation
 
 You can access the video presentation of the project [here](https://youtu.be/BmWjB2lG0WQ).
@@ -31,7 +33,7 @@ You can access the video presentation of the project [here](https://youtu.be/BmW
 ## Setup
 
 - Get the link of the repository: `git@github.com:IjayAbby/react-capstone-covid19-data.git`
-- Clone it as `git@github.com:IjayAbby/react-capstone-covid19-data.git` on a Terminal
+- Clone it as `git clone git@github.com:IjayAbby/react-capstone-covid19-data.git` on a Terminal
 - Change directory to it by `cd react-capstone-covid19-data`
 
 ## Usage
